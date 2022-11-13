@@ -35,6 +35,7 @@ function createBoxes(amount) {
   refs.boxesEl.style.gap = "15px";
 }
 
+
 function onInput(event) {
   divAmount = event.currentTarget.value;
   return divAmount;
